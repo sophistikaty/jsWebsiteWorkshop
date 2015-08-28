@@ -13,7 +13,7 @@ First, you'll need 3 things:
 
 	2. A github account
 		-visit https://github.com/
-		- command line or gui?
+		- command line or gui? (See github section below)
 
 	3. A google drive/ docs account 
 		-visit https://drive.google.com
@@ -35,5 +35,10 @@ Set up your github repo
 ------------------------------------------------------------
 
 	- https://github.com/[your-user-name] > repositories > new
+		- command line or gui?
+			- download github desktop app: https://desktop.github.com/
+			- sign-in, select the repository you just created
+			- create a new branch called "gh-pages"
+			- as you make changes to your local copy of the repo, they'll appear in the changes panel
 
 	- fork/checkout tabletop.js: https://github.com/jsoma/tabletop
