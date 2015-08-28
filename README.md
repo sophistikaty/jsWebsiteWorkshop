@@ -39,6 +39,7 @@ Set up your github repo
 			- download github desktop app: https://desktop.github.com/
 			- sign-in, select the repository you just created
 			- create a new branch called "gh-pages"
-			- as you make changes to your local copy of the repo, they'll appear in the changes panel
+			- as you make changes to your local copy of the repo, they'll appear in the changes panel.
+				-commit all changes to master, then merge them to the gh-pages branch to publish them live on http://[your-user-name].github.io/[your-repo-name]
 
 	- fork/checkout tabletop.js: https://github.com/jsoma/tabletop
