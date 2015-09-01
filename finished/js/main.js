@@ -134,7 +134,7 @@ $(document).ready(function(){
 	
 
 
-	// Tabletop Spreadsheet Functions
+	// Step One: Initialize the connection to your google spreadsheet on page load
 
 	window.onload = function() { init() };
 

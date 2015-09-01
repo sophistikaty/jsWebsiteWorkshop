@@ -1,45 +1,62 @@
 # jsWebsiteWorkshop
 ------------------------------------------------------------
-Build a complete website with tabletop.js and github pages
+	Build a complete website with tabletop.js and github pages
+
+
+	About Me:
+	------------------------------------------------------------
+		Kaitlynn Hendricks
+		Web Developer - NASA
+		@sophistikaty
+		philoticconnection.com
+
+
 
 Welcome! Here's how this is going to work
-
-
-
-First, you'll need 3 things:
 ------------------------------------------------------------
-	
-	1. A text editor (like sublime text 2: http://www.sublimetext.com/2)
+Welcome! (about me, about you) - html,css,js? website? developer?
+	Concept Overview, (monarch atlas)
+		Setup / Make Friends (plz help your neighbor, kthx), 
+			Start files,
+				Experiment, 
+					Recap, 
+						Opportunities to Connect, 
+							Thanks for coming!
 
-	2. A github account
-		-visit https://github.com/
-		- command line or gui? (See github section below)
+	First, you'll need 3 things:
+	------------------------------------------------------------
+		
+		1. A text editor (like sublime text 2: http://www.sublimetext.com/2)
 
-	3. A google drive/ docs account 
-		-visit https://drive.google.com
-		-create a new spreadsheet
+		2. A github account
+			-visit https://github.com/
+			- command line or gui? (See github section below)
 
-
-Set up your google doc
-------------------------------------------------------------
-
-	- https://drive.google.com/drive/my-drive
-	- new spreadsheet
-	- File > publish to the web
-	- choose your settings 
-	- click "start publishing button"
-	- copy link! (ie: https://docs.google.com/spreadsheets/d/1N9R5aj-MewuXuDxPF_tZmA57bapbiu3dx-ToqFu6OKg/pubhtml)
+		3. A google drive/ docs account 
+			-visit https://drive.google.com
+			-create a new spreadsheet
 
 
-Set up your github repo
-------------------------------------------------------------
+	Set up your google doc
+	------------------------------------------------------------
 
-	- https://github.com/[your-user-name] > repositories > new
-		- command line or gui?
-			- download github desktop app: https://desktop.github.com/
-			- sign-in, select the repository you just created
-			- create a new branch called "gh-pages"
-			- as you make changes to your local copy of the repo, they'll appear in the changes panel.
+		- https://drive.google.com/drive/my-drive
+		- new spreadsheet
+		- File > publish to the web
+		- choose your settings 
+		- click "start publishing button"
+		- copy link! (ie: https://docs.google.com/spreadsheets/d/1N9R5aj-MewuXuDxPF_tZmA57bapbiu3dx-ToqFu6OKg/pubhtml)
+
+
+	Set up your github repo
+	------------------------------------------------------------
+
+		- https://github.com/[your-user-name] > repositories > new
+			- command line or gui?
+				- download github desktop app: https://desktop.github.com/
+				- sign-in, select the repository you just created
+				- create a new branch called "gh-pages"
+				- as you make changes to your local copy of the repo, they'll appear in the changes panel.
 				-commit all changes to master, then merge them to the gh-pages branch to publish them live on http://[your-user-name].github.io/[your-repo-name]
 
-	- fork/checkout tabletop.js: https://github.com/jsoma/tabletop
+	- fork and/or take a look at tabletop.js: https://github.com/jsoma/tabletop

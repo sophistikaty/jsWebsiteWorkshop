@@ -1,6 +1,33 @@
 
 /* Mobile first - default styles */
 
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+div#sections {
+	background-color: #C0c0c0;
+  width: 100%;
+  height: auto;
+    padding: 20px 0px;
+}
+
+h1, h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h2.sectionTitle, p.sectionContent {
+	  color: #ffffff;
+  padding: 10px 10px 0px 15px;
+  margin: 0px;
+}
+
+/*p.sectionContent {
+	color: #ffffff;
+  padding: 0px 10px;
+}*/
+
+
 
 /*Small devices (tablets, 768px and up)*/
 /*@media (min-width: 768px) {
