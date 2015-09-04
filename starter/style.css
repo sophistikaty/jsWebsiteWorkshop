@@ -16,7 +16,7 @@ h1, h2 {
 	font-family: 'Oswald', sans-serif;
 }
 
-h2.sectionTitle, p.sectionContent {
+h2.sectionName, p.sectionContent {
 	  color: #ffffff;
   padding: 10px 10px 0px 15px;
   margin: 0px;
