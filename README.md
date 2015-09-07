@@ -54,9 +54,15 @@ Welcome! (about me, about you) - html,css,js? website? developer?
 		- https://github.com/[your-user-name] > repositories > new
 			- command line or gui?
 				- download github desktop app: https://desktop.github.com/
-				- sign-in, select the repository you just created
-				- create a new branch called "gh-pages"
-				- as you make changes to your local copy of the repo, they'll appear in the changes panel.
-				-commit all changes to master, then merge them to the gh-pages branch to publish them live on http://[your-user-name].github.io/[your-repo-name]
+
+				- ** Setup Github Pages ** 
+					--- Command-line instructions via github
+						- https://pages.github.com/
+
+					--- My method
+						- sign-in, select the repository you just created
+						- create a new branch called "gh-pages"
+						- as you make changes to your local copy of the repo, they'll appear in the changes panel.
+						-commit all changes to master, then merge them to the gh-pages branch to publish them live on http://[your-user-name].github.io/[your-repo-name]
 
 	- fork and/or take a look at tabletop.js: https://github.com/jsoma/tabletop
