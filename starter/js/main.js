@@ -1,4 +1,8 @@
-$(document).ready(function(){
+// Create an immediately invoked functional expression to wrap our code
+	(function() {
+
+	// higher-scope variables (not global/public)
+	var navArray = [];
 
 
 /* --- Part One: Initialize the connection to your google spreadsheet
@@ -51,7 +55,10 @@ $(document).ready(function(){
 		var index = bagelData[item];
 
 		// ---> NEXT STEP: Why call this function here?
-		checkPage(item);
+		// could skip passing in data variable if you put it in global scope, not usually ideal
+		
+		buildTopNav(item, bagelData);
+		checkPage(item, bagelData);
 
 	  return "<h2 class='sectionName'>"+item+", "+bagelData[item].Name+"</h2>\
 	  			<p class='sectionContent'>"+bagelData[item].Content+"</p>"; 
@@ -67,10 +74,77 @@ $(document).ready(function(){
 
 /* --- Part Three: Adventures in Routing (Multi-Page Navigation)  -----------------*/
 
-	function checkPage(index){
-		console.log('in checkPage w index ', index);
+	function buildTopNav(index, bagelData){
+
+		var menuElement = document.querySelector('ul.topNav');
+			console.log('menuElement is ', menuElement);
+
+		//pause console here, write function live, on page
+		// we're still in the mapping loop, if we weren't we could write another loop
+		var pageName = bagelData[index].Page; 
+		var pageLink = bagelData[index].Path+'.html';
+		var navList = menuElement.innerHTML;
+
+		// remember navArray? Using my higher-scope variable here works around loop
+		console.log('navArray is ', navArray);
+
+		// if the inner html is undefined, do a direct over-write 
+		//to avoid getting the string 'undefined' in your html
+		if(navList == undefined){
+
+			menuElement.innerHTML = '<li classList="topNav"><a href="'+pageLink+'">'+pageName+'</a></li>';
+
+			navArray.push(pageName);
+		}
+		else if(navArray.indexOf(pageName) > -1) {
+
+			//do nothing, that page has already been added to menu list
+			console.log('page is already in list', pageName, document.getElementById('topNav').children[0].innerHTML);
+		}
+		else {
+
+			menuElement.innerHTML = navList + 
+			'<li classList="topNav"><a href="'+pageLink+'">'+pageName+'</a></li>';
+
+			navArray.push(pageName);
+		}
+
+
 	}
-});
+
+	//check the html body id against the google sheet path column
+	function checkPage(index, bagelData){
+
+		//log out your data, try drilling down to target parts of arrays/ objects
+		//what do you need direct access to? what do you need to keep available for later?
+		console.log('in checkPage w index ', index);
+
+		console.log('four columns ',bagelData[index].Page, bagelData[index].Path, 
+		bagelData[index].Section, bagelData[index].Content);
+
+		var pagePath = bagelData[index].Path;
+			bodyId = document.body.id;
+
+		console.log('bodyId is ',bodyId);
+
+		if( bodyId === pagePath) {
+
+			console.log('page path '+pagePath+' matches page id '+bodyId);
+			var title = document.getElementsByClassName('title');
+				console.log('title is ', title);
+				for (i=0; i<title.length; i++){
+
+				title[i].textContent = bagelData[index].Page;
+				}
+			document.getElementById('content').innerHTML = bagelData[index].Content 
+			+ '<br><img class="contentBlock" src ="assets/'+bagelData[index].Photo+'.jpg" target="blank">';
+
+			//now you try, can you make unique subtitles per page? another kind of section?
+			// document.getElementById('subtitle').innerHTML = tabletopData[index].Subtitle;
+
+		}
+	}
+})();
 
 
 
