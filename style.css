@@ -53,11 +53,11 @@ div#content {
   margin: 5px 15%;
 }
 
-/*p.sectionContent {
-	color: #ffffff;
-  padding: 0px 10px;
-}*/
-
+div#contact {
+text-align: right;
+  font-size: 17px;
+  padding: 20px;
+}
 
 
 /*Small devices (tablets, 768px and up)*/
