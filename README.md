@@ -6,10 +6,9 @@
 	About Me:
 	------------------------------------------------------------
 		Kaitlynn Hendricks
-		Web Developer - NASA
-		@sophistikaty
-		philoticconnection.com
-
+		Applications Developer - NASA (ASRC)
+		@sophistikaty | sophistikaty@me.com | philoticconnection.com
+		
 
 
 Welcome! Here's how this is going to work
@@ -28,13 +27,15 @@ Welcome! (about me, about you) - html,css,js? website? developer?
 		
 		1. A text editor (like sublime text 2: http://www.sublimetext.com/2)
 
-		2. A github account
+		2. A google drive/ docs account 
+			-visit https://drive.google.com
+			-create a new spreadsheet
+
+		3. A github account (deployment)
 			-visit https://github.com/
 			- command line or gui? (See github section below)
 
-		3. A google drive/ docs account 
-			-visit https://drive.google.com
-			-create a new spreadsheet
+		
 
 
 	Set up your google doc
@@ -55,14 +56,16 @@ Welcome! (about me, about you) - html,css,js? website? developer?
 			- command line or gui?
 				- download github desktop app: https://desktop.github.com/
 
-				- ** Setup Github Pages ** 
-					--- Command-line instructions via github
-						- https://pages.github.com/
+	- fork and/or take a look at tabletop.js: https://github.com/jsoma/tabletop
 
-					--- My method
+	(deployment) - ** Setup Github Pages ** 
+					--- Command-line instructions via github
+						- https://pages.github.com/ 
+						- suggested to choose project site > start from scratch
+
+					--- My quick instructions
 						- sign-in, select the repository you just created
 						- create a new branch called "gh-pages"
+						- **! must have index.html file in root-directory !**
 						- as you make changes to your local copy of the repo, they'll appear in the changes panel.
 						-commit all changes to master, then merge them to the gh-pages branch to publish them live on http://[your-user-name].github.io/[your-repo-name]
-
-	- fork and/or take a look at tabletop.js: https://github.com/jsoma/tabletop
