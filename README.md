@@ -31,7 +31,7 @@ Welcome! (about me, about you) - html,css,js? website? developer?
 			-visit https://drive.google.com
 			-create a new spreadsheet
 
-		3. A github account (deployment)
+		3. A github account
 			-visit https://github.com/
 			- command line or gui? (See github section below)
 
