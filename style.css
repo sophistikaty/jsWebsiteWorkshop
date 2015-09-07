@@ -59,6 +59,12 @@ text-align: right;
   padding: 20px;
 }
 
+div#resources span {
+      font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 /*Small devices (tablets, 768px and up)*/
 /*@media (min-width: 768px) {
