@@ -92,7 +92,7 @@
 		//to avoid getting the string 'undefined' in your html
 		if(navList == undefined){
 
-			menuElement.innerHTML = '<li classList="topNav"><a href="'+pageLink+'">'+pageName+'</a></li>';
+			menuElement.innerHTML = '<li class="topNav"><a href="'+pageLink+'">'+pageName+'</a></li>';
 
 			navArray.push(pageName);
 		}
@@ -104,7 +104,7 @@
 		else {
 
 			menuElement.innerHTML = navList + 
-			'<li classList="topNav"><a href="'+pageLink+'">'+pageName+'</a></li>';
+			'<li class="topNav"><a href="'+pageLink+'">'+pageName+'</a></li>';
 
 			navArray.push(pageName);
 		}

@@ -1,6 +1,8 @@
 // Create an immediately invoked functional expression to wrap our code
 	(function() {
 
+		console.log('helloooo!');
+
 	// higher-scope variables (not global/public)
 	var navArray = [];
 
@@ -11,11 +13,14 @@
 	// Setup, get your data when the window loads
 	window.onload = function() { init() };
 
-		var public_spreadsheet_url = '[your-Google-Sheet-Public-Url]';
+		var public_spreadsheet_url 
+		// = '[your-Google-Sheet-Public-Url]'
+		;
 
 		function init() {
 			  	
-		Tabletop.init( { key: public_spreadsheet_url,
+		Tabletop.init( { 
+			// key: public_spreadsheet_url,
                      callback: showData,
                      simpleSheet: true } )
   }
@@ -35,7 +40,7 @@
 	  }
 
 /* --- Part Two: looping display targeted sections of your data  -----------------*/
-	function selectContent (bagelData) {
+function selectContent (bagelData) {
 
 		// log your arguments
 		console.log('called selectContent w ',bagelData);
@@ -61,6 +66,7 @@
 			
 			// buildTopNav(item, bagelData);
 			// checkPage(item, bagelData);
+
 
 		  //return looping values
 		  return "<h2 class='sectionName'>"+item+", "+bagelData[item].Name+"</h2>\
