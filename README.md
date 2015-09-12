@@ -29,7 +29,7 @@ Welcome! (about me, about you) - html,css,js? website? developer?
 
 		2. A google drive/ docs account 
 			-visit https://drive.google.com
-			-create a new spreadsheet
+			-create a new spreadsheet (See google doc section below)
 
 		3. A github account
 			-visit https://github.com/

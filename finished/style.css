@@ -2,59 +2,64 @@
 /* Mobile first - default styles */
 
 body {
-	font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+img.whatsup {
+  float: right;
+    width: 52%;
 }
 
 div#sections {
-	background-color: gray;
+  background-color: gray;
   width: 100%;
   height: auto;
     padding: 20px 0px;
 }
 
 h1, h2 {
-	font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h2.sectionName, p.sectionContent {
-	  color: #ffffff;
+    color: #ffffff;
   padding: 10px 10px 0px 15px;
   margin: 0px;
 }
 
 #topNav ul {
-	  list-style-type: none;
-	  /* display: inline;*/
+    list-style-type: none;
+    /* display: inline;*/
 }
 
 #topNav ul li {
-	/*list-style-type: none;*/
+  /*list-style-type: none;*/
   display: inline;
   padding: 0px 20px;
 }
 
 a {
-  	text-decoration: none;
-  	color: gray;
-  	transition: all 1s ease;
+    text-decoration: none;
+    color: gray;
+    transition: all 1s ease;
 }
 
 a:hover {
-	color: #5353C5;
+  color: #5353C5;
 
 }
 
 div#content {
-	 padding: 0px 10px 30px;
+   padding: 0px 10px 30px;
 }
 
 #content img.contentBlock {
-	 width: 70%;
+   width: 70%;
   margin: 5px 15%;
 }
 
 div#contact {
-  text-align: right;
+text-align: right;
   font-size: 17px;
   padding: 20px;
 }
@@ -65,14 +70,15 @@ div#resources span {
     font-size: 20px;
 }
 
+
 /*Small devices (tablets, 768px and up)*/
 /*@media (min-width: 768px) {
 }*/
-	
+  
 /*Medium devices (desktops, 992px and up)*/
-/*@media (min-width: 992px) {	
+/*@media (min-width: 992px) { 
 }*/
-	
+  
 /*Large devices (large desktops, 1200px and up)*/ 
 /*@media (min-width: 1200px) {
 }*/

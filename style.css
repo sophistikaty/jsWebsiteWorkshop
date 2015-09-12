@@ -5,6 +5,11 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+img.whatsup {
+  float: right;
+    width: 52%;
+}
+
 div#sections {
 	background-color: gray;
   width: 100%;
