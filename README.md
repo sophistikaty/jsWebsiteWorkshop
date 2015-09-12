@@ -56,7 +56,8 @@ Welcome! (about me, about you) - html,css,js? website? developer?
 			- command line or gui?
 				- download github desktop app: https://desktop.github.com/
 
-	- fork and/or take a look at tabletop.js: https://github.com/jsoma/tabletop
+	- feel free to fork and/or take a look at tabletop.js: https://github.com/jsoma/tabletop
+		(there is also a copy of tabletop.js in the workshop repository)
 
 	(deployment) - ** Setup Github Pages ** 
 					--- Command-line instructions via github
